@@ -55,6 +55,8 @@ import markdown from '@/utils/markdown-it'
 import anchor from 'markdown-it-anchor'
 import iterator from 'markdown-it-for-inline'
 import Toc from '@/components/Toc'
+import ace from 'brace'
+import 'brace/mode/markdown'
 
 /* eslint-disable no-useless-escape */
 export default {
