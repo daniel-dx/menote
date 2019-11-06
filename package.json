@@ -1,6 +1,6 @@
 {
   "name": "@danieldx/menote",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A simple, beautiful Markdown editor powered by vue.js, ace, markdown-it",
   "author": "eteplus <eterplus@gmail.com>",
   "scripts": {
