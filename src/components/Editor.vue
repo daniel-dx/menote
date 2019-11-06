@@ -6,13 +6,13 @@
         'is-side': isSideBySide,
         'is-readmode': isReadmode
       }">
-      <template v-for="item in toolbar">
-        <a :title="item.tooltips"
+      <template v-for="(item, idx) in toolbar">
+        <a :key="idx" :title="item.tooltips"
           :class="item.className"
           @click="executeAction(item.action || '')"
           v-if="item.type === 'button'" >
         </a>
-        <i class="separator" v-else>|</i>
+        <i :key="idx" class="separator" v-else>|</i>
       </template>
     </div>
     <div class="editor-bottombar">
